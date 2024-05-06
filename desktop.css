@@ -1,20 +1,175 @@
 body{
     background-color: black;
 }
-
+#heading{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+}
 .solarsystem{
+    padding: 10px;
     display: flex;    
     height: 700px;
     flex-direction: row-reverse;
     gap: 10px;
+    
 
 }
 #sun {
-    background: url('images/sun.png')no-repeat;
-    background-size: contain;
-    height: 800px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    height: 680px;
     width:380px;
 }
+#sun-logo{
+    padding: 5px;
+    align-self: flex-end;
+    background: url('images/sun.png')no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 220px;
+}
 .planets{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     color: wheat;
+    margin: 10px;
+    gap: 7px;
+}
+/* mercury */
+#mercury-logo{
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}
+.mercury{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+}
+/* venus */
+#venus-logo{
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+.venus{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 10px;
+}
+/*earth */
+#earth-logo{
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+}
+.earth{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+}
+/* mars */
+
+#mars-logo{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+.mars{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 10px;
+}
+/* jupiter */
+
+
+#jupiter-logo{
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+.jupiter{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    font-size: 10px;
+}
+/* saturn */
+
+#saturn-logo{
+    padding: 10px;
+    height: 180px;
+    width: 250px;
+}
+.saturn{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 150px;
+    width: 250 px;
+    font-size: 10px;
+}
+/* uranus */
+
+#uranus-logo{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+}
+.uranus{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    font-size: 10px;
+}
+/* neptune */
+
+#neptune-logo{
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+.neptune{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 10px;
 }
