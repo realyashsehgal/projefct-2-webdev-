@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+.solarsystem{
+    display: flex;    
+    height: 700px;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+}
+#sun {
+    background: url('images/sun.png')no-repeat;
+    background-size: contain;
+    height: 800px;
+    width:380px;
+}
+.planets{
+    color: wheat;
+}
