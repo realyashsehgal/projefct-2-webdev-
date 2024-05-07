@@ -191,16 +191,16 @@ body{
   
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
 }
-.sun-heading{
+.common-section-heading{
     font-size: 50px;
 }
-.sun-content{
+.common-section-content{
     margin: 10px;
     padding: 10px;
     width: 50%;
     color: aliceblue;
 }
-.sun-image-container{
+.common-section-image-container{
     display: flex;
 }
 .sun-image{
@@ -226,18 +226,6 @@ body{
     width: auto;
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
 }
-.mercury-heading{
-    font-size: 50px;
-}
-.mercury-content{
-    margin: 10px;
-    padding: 10px;
-    width: 50%;
-    color: aliceblue;
-}
-.mercury-image-container{
-    display: flex;
-}
 .mercury-image{
     padding: 10px;
     margin: 10px;
@@ -261,22 +249,153 @@ body{
     width: auto;
     box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
 }
-.venus-heading{
-    font-size: 50px;
-}
-.venus-content{
-    margin: 10px;
-    padding: 10px;
-    width: 50%;
-    color: aliceblue;
-}
-.venus-image-container{
-    display: flex;
-}
 .venus-image{
     padding: 10px;
     margin: 10px;
     background: url('images/venuslogo.png') no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+/* earth section */
+
+.container-earth{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(13, 13, 13);
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(25, 103, 8);
+    border-radius: 20px;
+    height: max-content;
+    width: auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
+}
+.earth-image{
+    padding: 10px;
+    margin: 10px;
+    background: url('images/earthlogo.png') no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+/* mars */
+
+.container-mars{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(13, 13, 13);
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(242, 14, 14);
+    border-radius: 20px;
+    height: max-content;
+    width: auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
+}
+.mars-image{
+    padding: 10px;
+    margin: 10px;
+    background: url('images/marslogo.png') no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+/* jupiter section */
+.container-jupiter{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(13, 13, 13);
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(194, 147, 82);
+    border-radius: 20px;
+    height: max-content;
+    width: auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
+}
+.jupiter-image{
+    padding: 10px;
+    margin: 10px;
+    background: url('images/jupiterlogo.png') no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+/* saturn section */
+.container-saturn{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(13, 13, 13);
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(142, 100, 42);
+    border-radius: 20px;
+    height: max-content;
+    width: auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
+}
+.saturn-image{
+    padding: 10px;
+    margin: 10px;
+    background: url('images/saturnlogo.png') no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 300px;
+}
+/* uranus */
+
+.container-uranus{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(13, 13, 13);
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(49, 134, 180);
+    border-radius: 20px;
+    height: max-content;
+    width: auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
+}
+.uranus-image{
+    padding: 10px;
+    margin: 10px;
+    background: url('images/uranuslogo.png') no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+/* neptune section */
+
+
+.container-neptune{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(13, 13, 13);
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(0, 47, 255);
+    border-radius: 20px;
+    height: max-content;
+    width: auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.234);
+}
+.neptune-image{
+    padding: 10px;
+    margin: 10px;
+    background: url('images/neptunelogo.png') no-repeat;
     background-size: contain;
     height: 300px;
     width: 300px;
